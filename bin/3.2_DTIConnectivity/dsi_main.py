@@ -21,7 +21,7 @@ if __name__ == '__main__':
     f.close()
 
     # default b-table in input directory
-    b_table = os.path.abspath(os.path.join(os.getcwd(), os.pardir,os.pardir)) + '/lib/DTI_Jones30.txt'
+    b_table = os.path.abspath(os.path.join(os.getcwd(), os.pardir,os.pardir)) + '/lib/001_btable.txt'
 
     # default connectivity directory relative to input directory
     dir_con = r'connectivity'
