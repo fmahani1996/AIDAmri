@@ -7,7 +7,11 @@ Department of Neurology
 University Hospital Cologne
 
 """
+
+from __future__ import print_function
+
 import os
+import sys
 from math import *
 from lmfit import  Minimizer, Parameters
 import matplotlib.pyplot as plt
@@ -15,11 +19,9 @@ import nibabel as nii
 import numpy as np
 import progressbar
 
-
 from ReferenceMethods import brummerSNR, changSNR, sijbersSNR
 
 plt.interactive(False)
-
 
 def t2_monoexp3 (params, t, data):
     """
@@ -27,13 +29,13 @@ def t2_monoexp3 (params, t, data):
     #
     # Define a mono-exponential decay equation with Y0 offset
     #------------------------------------------------------------------------------
-    # params:   name (str, optional) – Name of the Parameter.
-    #           value (float, optional) – Numerical Parameter value.
-    #           vary (bool, optional) – Whether the Parameter is varied during a fit (default is True).
-    #           min (float, optional) – Lower bound for value (default is -numpy.inf, no lower bound).
-    #           max (float, optional) – Upper bound for value (default is numpy.inf, no upper bound).
-    #           expr (str, optional) – Mathematical expression used to constrain the value during the fit.
-    #           user_data (optional) – User-definable extra attribute used for a Parameter.
+    # params:   name (str, optional) - Name of the Parameter.
+    #           value (float, optional) - Numerical Parameter value.
+    #           vary (bool, optional) - Whether the Parameter is varied during a fit (default is True).
+    #           min (float, optional) - Lower bound for value (default is -numpy.inf, no lower bound).
+    #           max (float, optional) - Upper bound for value (default is numpy.inf, no upper bound).
+    #           expr (str, optional) - Mathematical expression used to constrain the value during the fit.
+    #           user_data (optional) - User-definable extra attribute used for a Parameter.
     # t: time axis in index units
     # data: scattert points
     """
@@ -49,14 +51,14 @@ def t2_monoexp2(params, t, data):
     #
     # Define a mono-exponential decay equation without Y0 offset
     # ------------------------------------------------------------------------------
-    # params:   name (str, optional) – Name of the Parameter.
-    #           value (float, optional) – Numerical Parameter value.
-    #           vary (bool, optional) – Whether the Parameter is varied during a fit (default is True).
-    #           min (float, optional) – Lower bound for value (default is -numpy.inf, no lower bound).
-    #           max (float, optional) – Upper bound for value (default is numpy.inf, no upper bound).
-    #           expr (str, optional) – Mathematical expression used to constrain the value during the fit.
-    #           brute_step (float, optional) – Step size for grid points in the brute method.
-    #           user_data (optional) – User-definable extra attribute used for a Parameter.
+    # params:   name (str, optional) - Name of the Parameter.
+    #           value (float, optional) - Numerical Parameter value.
+    #           vary (bool, optional) - Whether the Parameter is varied during a fit (default is True).
+    #           min (float, optional) - Lower bound for value (default is -numpy.inf, no lower bound).
+    #           max (float, optional) - Upper bound for value (default is numpy.inf, no upper bound).
+    #           expr (str, optional) - Mathematical expression used to constrain the value during the fit.
+    #           brute_step (float, optional) - Step size for grid points in the brute method.
+    #           user_data (optional) - User-definable extra attribute used for a Parameter.
     # t: time axis in index units
     # data: scattert points
     """
@@ -154,12 +156,12 @@ def t2_mapping(data,echoTime, model, uplim, snrLim, SNRMethod):
 
 
     if 'T2_2p' in model:
-         # Array to store the T2, S0 and Y0 maps
-         pvMaps = np.zeros([nx, ny, ns, 3],dtype=data.get_data_dtype())
+        # Array to store the T2, S0 and Y0 maps
+        pvMaps = np.zeros([nx, ny, ns, 3],dtype=data.get_data_dtype())
 
 
-         #Loop to go through all slices
-         for slc in range(ns):
+        #Loop to go through all slices
+        for slc in range(ns):
             #   Print % of progress
             print('Slice: ' + str(slc + 1))
 

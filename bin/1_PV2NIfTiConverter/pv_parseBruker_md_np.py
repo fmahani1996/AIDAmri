@@ -10,14 +10,14 @@ University Hospital Cologne
 
 from __future__ import print_function
 
-import os,sys
+import os
+import sys
 
 import numpy as np
 
-from dict2xml import createXML
+from dict2xml_mpi import createXML
 
-
-# from string import split
+#from string import split
 
 def parsePV(filename):
     """
@@ -28,7 +28,8 @@ def parsePV(filename):
     filename: 'acqp', 'method', 'd3proc', 'roi', 'visu_pars', etc.
     """
     if not os.path.exists(filename):
-        return []
+        #return [] # michaeld 20230927
+        return {} # michaeld 20230927
 
     # Read file 'filename' -> list 'lines'
     f = open(filename, 'r')
@@ -68,8 +69,11 @@ def parsePV(filename):
         sys.exit("Error: visu_pars is not readable")
 
     if 'subject' in filename:
-        tmp = lines[32].split('#$Name,')
-        params['coilname'] = tmp[1].split('#$Id')[0]
+        if (len(lines) > 32) and ('#$Name,' in lines[32]): # michaeld 20230928
+            tmp = lines[32].split('#$Name,')
+            params['coilname'] = tmp[1].split('#$Id')[0]
+        else: # michaeld 20230928
+            params['coilname'] = 'no coilname found' # michaeld 20230928
         return params
 
     for line in lines:
@@ -164,8 +168,6 @@ def getNiftiHeader(params, sc=10):
     nY = int(CoreSize[1])
     nZ = 1
     nT = 1
-
-
 
     # FrameGroup dimensions
     if 'VisuFGOrderDescDim' in params:

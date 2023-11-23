@@ -89,6 +89,7 @@ with open('groupMapping.csv', newline='') as csv_file:
     for subjects, groups in reader:
         csv_listSubjects.append(subjects)
         csv_listGroups.append(groups)
+
         
 if groupNames == None:
     # If no groups were specified, get all unique names of the .csv group column

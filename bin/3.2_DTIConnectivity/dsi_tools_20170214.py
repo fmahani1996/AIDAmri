@@ -210,7 +210,7 @@ def mapsgen(dsi_studio, dir_in, dir_msk, b_table, pattern_in, pattern_fib):
 
         # create fib files
         file_msk = os.path.join(dir_msk, pre_msk + filename[:pos] + ext_nii)
-        parameters = (dsi_studio, 'rec', file_src, file_msk, 3, '16', 2, 1)
+        parameters = (dsi_studio, 'rec', file_src, file_msk, 0, '16', 2, 0)
         print("%d of %d:" % (index + 1, len(file_list)), cmd_rec % parameters)
         subprocess.call(cmd_rec % parameters)
 
@@ -271,7 +271,7 @@ def srcgen(dsi_studio, dir_in, dir_msk, dir_out, b_table):
 
     # create fib files
     file_msk = dir_msk
-    parameters = (dsi_studio, 'rec', file_src, file_msk, 1, '16', 1, 1)
+    parameters = (dsi_studio, 'rec', file_src, file_msk, 0, '16', 0, 1)
     print("Generate fib-File %s:" % cmd_rec % parameters)
     os.system(cmd_rec % parameters)
 

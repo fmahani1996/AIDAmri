@@ -64,6 +64,7 @@ def updateB(Img, q, C, M, Bas,GGT,ImgG):
             A[ii, jj] = np.sum(B) # inner product
             A[jj, ii] = A[ii, jj]
 
+    print('A=',A)
     w = np.dot(np.linalg.inv(A) , V)
     b = np.zeros(Img.shape)
     for kk in range (N_bas):

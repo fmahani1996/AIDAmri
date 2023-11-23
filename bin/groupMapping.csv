@@ -1,137 +1,10 @@
-"Subject	";Group
-"GV_T3_12_1_1_2_20190731_114749	";C3a
-"GV_T3_12_1_1_3_20190808_093354	";C3a
-"GV_T3_12_2_1_1_20190731_135409	";C3a
-"GV_T3_12_2_1_2_20190808_110831	";C3a
-"GV_T3_12_3_1_1_20190731_143142	";C3a
-"GV_T3_12_3_1_2_20190808_120901	";C3a
-"GV_T3_13_1_1_1_20190806_100541	";C3a
-"GV_T3_13_1_1_2_20190808_133527	";C3a
-"GV_T3_13_2_1_1_20190806_111922	";C3a
-"GV_T3_13_2_1_2_20190808_142623	";C3a
-"GV_T3_13_2_1_3_20190809_100309	";C3a
-"GV_T3_13_3_1_1_20190806_124154	";C3a
-"GV_T3_13_3_1_2_20190808_144158	";C3a
-"GV_T3_13_4_1_1_20190806_133802	";C3a
-"GV_T3_13_4_1_2_20190809_105931	";C3a
-"GV_T3_15_1_1_1_20190903_082704	";unlisted
-"GV_T3_15_2_1_1_20190903_090114	";unlisted
-"GV_T3_15_3_1_1_20190903_094421	";unlisted
-"GV_T3_15_4_1_1_20190903_102746	";unlisted
-"GV_T3_16_1_1_1_20190903_123147	";C3a
-"GV_T3_16_2_1_1_20190903_131430	";C3a
-"GV_T3_16_3_1_1_20190903_142337	";C3a
-"GV_T3_12_1_1_4_20190820_090634	";C3a
-"GV_T3_12_2_1_3_20190820_104019	";C3a
-"GV_T3_12_3_1_3_20190820_112855	";C3a
-"GV_T3_13_1_1_3_20190820_130848	";C3a
-"GV_T3_13_2_1_4_20190820_121817	";C3a
-"GV_T3_13_3_1_3_20190820_141137	";C3a
-"GV_T3_13_4_1_3_20190820_152016	";C3a
-"GV_T3_15_2_1_2_20190924_083310	";unlisted
-"GV_T3_15_3_1_2_20190924_093550	";unlisted
-"GV_T3_15_4_1_2_20190924_104243	";unlisted
-"GV_T3_16_1_1_2_20190923_111155	";C3a
-"GV_T3_16_2_1_2_20190923_144608	";C3a
-"GV_T3_16_3_1_2_20190923_162928	";C3a
-"GV_T3_12_1_1_5_20190829_091927	";C3a
-"GV_T3_12_2_1_4_20190829_103718	";C3a
-"GV_T3_12_3_1_4_20190829_112627	";C3a
-"GV_T3_13_1_1_4_20190828_160508	";C3a
-"GV_T3_13_2_1_5_20190828_170236	";C3a
-"GV_T3_13_3_1_4_20190828_174327	";C3a
-"GV_T3_13_4_1_4_20190828_182452	";C3a
-"GV_T3_16_1_1_3_20191001_091617	";C3a
-"GV_T3_16_2_1_3_20191001_100959	";C3a
-"GV_T3_16_3_1_3_20191001_105158	";C3a
-"GV_T3_12_1_1_6_20190910_084053	";C3a
-"GV_T3_12_2_1_5_20190910_093051	";C3a
-"GV_T3_12_3_1_5_20190910_101439	";C3a
-"GV_T3_13_1_1_5_20190910_105531	";C3a
-"GV_T3_13_2_1_6_20190910_120953	";C3a
-"GV_T3_13_3_1_5_20190910_125559	";C3a
-"GV_T3_13_4_1_5_20190910_134736	";C3a
-"GV_T3_16_1_1_4_20191015_092459	";C3a
-"GV_T3_16_2_1_4_20191015_101137	";C3a
-"GV_T3_16_2_1_5_20191015_151515	";C3a
-"GV_T3_16_3_1_4_20191015_105651	";C3a
-"GV_T3_12_2_1_6_20190924_163833	";C3a
-"GV_T3_12_3_1_6_20190924_171913	";C3a
-"GV_T3_12_3_1_7_20190924_171919	";C3a
-"GV_T3_13_1_1_6_20190925_082850	";C3a
-"GV_T3_13_2_1_7_20190925_091435	";C3a
-"GV_T3_13_3_1_6_20190925_095841	";C3a
-"GV_T3_13_4_1_6_20190925_104204	";C3a
-"GV_T3_16_1_1_5_20191029_092504	";C3a
-"GV_T3_16_2_1_6_20191029_101500	";C3a
-"GV_T3_16_3_1_5_20191029_110341	";C3a
-"GV_T3_12_1_1_8_20191008_102322	";C3a
-"GV_T3_12_2_1_7_20191008_125211	";C3a
-"GV_T3_12_3_1_8_20191008_150900	";C3a
-"GV_T3_13_1_1_7_20191008_161218	";C3a
-"GV_T3_13_2_1_8_20191009_084507	";C3a
-"GV_T3_13_3_1_7_20191009_101526	";C3a
-"GV_T3_13_4_1_7_20191009_112021	";C3a
-"GV_T3_16_1_1_6_20191112_100410	";C3a
-"GV_T3_16_2_1_7_20191112_111819	";C3a
-"GV_T3_16_3_1_6_20191112_121307	";C3a
-"GV_T3_13_5_1_1_20190806_145957	";unlisted
-"GV_T3_13_5_1_2_20190809_110751	";unlisted
-"GV_T3_14_1_1_1_20190807_100224	";PBS
-"GV_T3_14_1_1_2_20190809_134721	";PBS
-"GV_T3_14_2_1_1_20190809_145138	";PBS
-"GV_T3_14_3_1_1_20190809_154126	";PBS
-"GV_T3_14_4_1_1_20190812_103755	";PBS
-"GV_T3_14_5_1_1_20190812_115130	";unlisted
-"GV_T3_16_4_1_1_20190904_080859	";PBS
-"GV_T3_17_1_1_1_20190904_085941	";unlisted
-"GV_T3_17_2_1_1_20190904_092536	";unlisted
-"GV_T3_17_3_1_1_20190904_101208	";PBS
-"GV_T3_17_4_1_1_20190904_105336	";PBS
-"GV_T3_17_5_1_1_20190904_113248	";unlisted
-"GV_T3_13_5_1_3_20190821_090958	";unlisted
-"GV_T3_14_1_1_3_20190821_095620	";PBS
-"GV_T3_14_2_1_2_20190821_105807	";PBS
-"GV_T3_14_3_1_2_20190821_130012	";PBS
-"GV_T3_14_4_1_2_20190821_134908	";PBS
-"GV_T3_14_5_1_2_20190821_144124	";unlisted
-"GV_T3_16_4_1_2_20190924_112719	";PBS
-"GV_T3_17_2_1_2_20190924_120917	";unlisted
-"GV_T3_17_3_1_2_20190924_125208	";PBS
-"GV_T3_17_4_1_2_20190924_133317	";PBS
-"GV_T3_17_5_1_2_20190924_142752	";unlisted
-"GV_T3_14_1_1_4_20190829_121905	";PBS
-"GV_T3_14_2_1_3_20190829_130307	";PBS
-"GV_T3_14_3_1_3_20190829_134612	";PBS
-"GV_T3_14_4_1_3_20190829_143623	";PBS
-"GV_T3_14_5_1_3_20190829_152217	";unlisted
-"GV_T3_16_4_1_3_20191002_083801	";PBS
-"GV_T3_17_2_1_3_20191002_093838	";unlisted
-"GV_T3_17_3_1_3_20191002_100801	";PBS
-"GV_T3_17_4_1_3_20191002_105022	";PBS
-"GV_T3_17_5_1_3_20191002_113038	";unlisted
-"GV_T3_14_1_1_5_20190911_085005	";PBS
-"GV_T3_14_2_1_4_20190911_094801	";PBS
-"GV_T3_14_3_1_4_20190911_103054	";PBS
-"GV_T3_14_4_1_4_20190911_111332	";PBS
-"GV_T3_14_5_1_4_20190911_115546	";unlisted
-"GV_T3_16_4_1_4_20191015_114108	";PBS
-"GV_T3_17_3_1_4_20191015_131043	";PBS
-"GV_T3_17_4_1_4_20191015_135026	";PBS
-"GV_T3_12_1_1_7_20190924_160057	";C3a
-"GV_T3_14_1_1_6_20190925_113349	";PBS
-"GV_T3_14_2_1_5_20190925_122019	";PBS
-"GV_T3_14_3_1_5_20190925_132917	";PBS
-"GV_T3_14_4_1_5_20190925_141548	";PBS
-"GV_T3_16_4_1_5_20191029_125150	";PBS
-"GV_T3_17_1_1_2_20191029_133513	";unlisted
-"GV_T3_17_3_1_5_20191029_133548	";PBS
-"GV_T3_17_4_1_5_20191029_144222	";PBS
-"GV_T3_14_1_1_7_20191009_121054	";PBS
-"GV_T3_14_1_1_8_20191009_121103	";PBS
-"GV_T3_14_2_1_6_20191009_130701	";PBS
-"GV_T3_14_3_1_6_20191009_140516	";PBS
-"GV_T3_14_4_1_6_20191009_150737	";PBS
-"GV_T3_16_4_1_6_20191112_131231	";PBS
-"GV_T3_17_3_1_6_20191112_141745	";PBS
-"GV_T3_17_4_1_6_20191112_150712	";PBS
+Subjects;Groups
+CH_30332_pre.zG1;Stroke_Stem_cellsCH_30333_pre.zG1;Stroke_Stem_cellsCH_30334_pre.zG1;unlistedCH_30335_pre.zG1;unlistedCH_30336_pre.zH1;unlistedCH_30337_pre.zH1;unlistedCH_30338_pre.zH1;unlistedCH_30339_pre.zJ1;Stroke_Stem_cellsCH_30340_pre.zH1;unlistedCH_30341_pre.zJ1;unlistedCH_30366_pre.Aq1;unlistedCH_30367_pre.Aq1;Stroke_Sham_cell_implantationCH_30368_pre.Aq1;Stroke_Sham_cell_implantationCH_30369_pre.Aq1;Stroke_Sham_cell_implantationCH_30370_pre.Aq1;unlistedCH_30371_pre.Ar1;Stroke_Sham_cell_implantationCH_30372_pre.Aq1;unlistedCH_30373_pre.Ar1;unlistedCH_30374_pre.Ar1;Stroke_Stem_cellsCH_30374_pre.At1;Stroke_Stem_cellsCH_30375_pre.Ar1;unlistedCH_30376_pre.Ar1;unlistedCH_30377_pre.Ar1;unlistedCH_30378_pre.At1;unlistedCH_30379_pre.At1;Stroke_Stem_cellsCH_30380_pre.At1;Stroke_Stem_cellsCH_30381_pre.At1;unlistedCH_30382_pre.At1;unlistedCH_30383_pre.Au1;unlistedCH_30384_pre.Au1;unlistedCH_30385_pre.Au1;Stroke_Stem_cellsCH_30386_pre.Au1;Stroke_Stem_cellsCH_30387_pre.Au1;unlistedCH_30388_pre.AC1;Stroke_Stem_cellsCH_30389_pre.AB1;Stroke_Stem_cellsCH_30391_pre.AC1;unlistedCH_30392_pre.AB1;Stroke_Stem_cells
+CH_30231_w0.yB1;unlisted
+CH_30232_w0.yB1;unlistedCH_30232_w0.yD1;unlistedCH_30233_w0.yB1;unlistedCH_30233_w0.yD1;unlistedCH_30234_w0.yB1;unlistedCH_30235_w0.yB1;unlistedCH_30235_w0.yD1;unlistedCH_30236_w0.yC1;unlistedCH_30236_w0.yE1;unlistedCH_30237_w0.yA1;Stroke_Sham_cell_implantationCH_30237_w0.yC1;Stroke_Sham_cell_implantationCH_30238_w0.yA1;Stroke_Sham_cell_implantationCH_30238_w0.yC1;Stroke_Sham_cell_implantationCH_30239_w0.yC1;unlistedCH_30239_w0.yE1;unlistedCH_30240_w0.yA1;unlisted
+CH_30237_w1.yM1;Stroke_Sham_cell_implantationCH_30238_w1.yM1;Stroke_Sham_cell_implantationCH_30238_w1.yO1;Stroke_Sham_cell_implantationCH_30332_w1.zV1;Stroke_Stem_cellsCH_30333_w1.zT1;Stroke_Stem_cellsCH_30334_w1.zT1;unlistedCH_30337_w1.zU1;unlistedCH_30338_w1.zU1;unlistedCH_30339_w1.zW1;Stroke_Stem_cellsCH_30341_w1.zU1;unlistedCH_30366_w1.AC1;unlistedCH_30367_w1.AC1;Stroke_Sham_cell_implantationCH_30368_w1.AC1;Stroke_Sham_cell_implantationCH_30369_w1.AC1;Stroke_Sham_cell_implantationCH_30370_w1.AC1;unlistedCH_30371_w1.AC1;Stroke_Sham_cell_implantationCH_30373_w1.AH1;unlistedCH_30374_w1.AH1;Stroke_Stem_cellsCH_30376_w1.AH1;unlistedCH_30379_w1.AI1;Stroke_Stem_cellsCH_30380_w1.AI1;Stroke_Stem_cellsCH_30381_w1.AI1;unlistedCH_30383_w1.AK1;unlistedCH_30385_w1.AK1;Stroke_Stem_cellsCH_30386_w1.AK1;Stroke_Stem_cellsCH_30387_w1.AK1;unlistedCH_30388_w1.AQ1;Stroke_Stem_cellsCH_30389_w1.AQ1;Stroke_Stem_cellsCH_30392_w1.AQ1;Stroke_Stem_cells
+CH_30237_w2.yT1;Stroke_Sham_cell_implantationCH_30237_w2.yV1;Stroke_Sham_cell_implantationCH_30238_w2.yT1;Stroke_Sham_cell_implantationCH_30332_w2.A11;Stroke_Stem_cellsCH_30333_w2.A11;Stroke_Stem_cellsCH_30334_w2.A11;unlistedCH_30337_w2.A11;unlistedCH_30338_w2.A21;unlistedCH_30339_w2.A31;Stroke_Stem_cellsCH_30367_w2.AJ1;Stroke_Sham_cell_implantationCH_30368_w2.AJ1;Stroke_Sham_cell_implantationCH_30369_w2.AJ1;Stroke_Sham_cell_implantationCH_30371_w2.AJ1;Stroke_Sham_cell_implantationCH_30373_w2.AO1;unlistedCH_30373_w2.AP1;unlistedCH_30374_w2.AO1;Stroke_Stem_cellsCH_30376_w2.AO1;unlistedCH_30379_w2.AP1;Stroke_Stem_cellsCH_30380_w2.AP1;Stroke_Stem_cellsCH_30381_w2.AP1;unlistedCH_30385_w2.AQ1;Stroke_Stem_cellsCH_30386_w2.AQ1;Stroke_Stem_cellsCH_30388_w2.AX1;Stroke_Stem_cellsCH_30389_w2.AX1;Stroke_Stem_cellsCH_30392_w2.AX1;Stroke_Stem_cells
+CH_30237_w4.z81;Stroke_Sham_cell_implantationCH_30238_w4.z81;Stroke_Sham_cell_implantationCH_30332_w4.Ag1;Stroke_Stem_cellsCH_30333_w4.Ag1;Stroke_Stem_cellsCH_30334_w4.Ag1;unlistedCH_30336_w4.Ah1;unlistedCH_30337_w4.Ah1;unlistedCH_30338_w4.Ah1;unlistedCH_30367_w4.AW1;Stroke_Sham_cell_implantationCH_30368_w4.AW1;Stroke_Sham_cell_implantationCH_30369_w4.AW1;Stroke_Sham_cell_implantationCH_30371_w4.AX1;Stroke_Sham_cell_implantationCH_30373_w4.B31;unlistedCH_30374_w4.B21;Stroke_Stem_cellsCH_30374_w4.B41;Stroke_Stem_cellsCH_30376_w4.B31;unlistedCH_30379_w4.B21;Stroke_Stem_cellsCH_30380_w4.B21;Stroke_Stem_cellsCH_30381_w4.B21;unlistedCH_30385_w4.B41;Stroke_Stem_cellsCH_30386_w4.B41;Stroke_Stem_cellsCH_30388_w4.Bc1;Stroke_Stem_cellsCH_30389_w4.Bc1;Stroke_Stem_cellsCH_30392_w4.Bc1;Stroke_Stem_cells
+CH_30237_w8.zB1;Stroke_Sham_cell_implantationCH_30237_w8.zz1;Stroke_Sham_cell_implantationCH_30238_w8.zz1;Stroke_Sham_cell_implantationCH_30332_w8.AH1;Stroke_Stem_cellsCH_30333_w8.AH1;Stroke_Stem_cellsCH_30334_w8.AH1;unlistedCH_30337_w8.AI1;unlistedCH_30338_w8.AI1;unlistedCH_30339_w8.AI1;Stroke_Stem_cellsCH_30367_w8.Bo1;Stroke_Sham_cell_implantationCH_30368_w8.Bo1;Stroke_Sham_cell_implantationCH_30369_w8.Bo1;Stroke_Sham_cell_implantationCH_30371_w8.Bp1;Stroke_Sham_cell_implantationCH_30373_w8.Bu1;unlistedCH_30374_w8.Bu1;Stroke_Stem_cellsCH_30376_w8.Bu1;unlistedCH_30379_w8.Bv1;Stroke_Stem_cellsCH_30380_w8.Bv1;Stroke_Stem_cellsCH_30381_w8.Bv1;unlistedCH_30385_w8.Bu1;Stroke_Stem_cellsCH_30386_w8.Bu1;Stroke_Stem_cellsCH_30388_w8.BD1;Stroke_Stem_cellsCH_30389_w8.BD1;Stroke_Stem_cellsCH_30392_w8.BD1;Stroke_Stem_cells
+CH_30237_12.A31;Stroke_Sham_cell_implantationCH_30238_w12.A31;Stroke_Sham_cell_implantationCH_30333_w12.Ba1;Stroke_Stem_cellsCH_30333_w12.Bb1;Stroke_Stem_cellsCH_30334_w12.Ba1;unlistedCH_30334_w12.Bb1;unlistedCH_30337_w12.Ba1;unlistedCH_30338_w12.Ba1;unlistedCH_30339_w12.Ba1;Stroke_Stem_cellsCH_30367_w12.BQ1;Stroke_Sham_cell_implantationCH_30368_w12.BQ1;Stroke_Sham_cell_implantationCH_30369_w12.BQ1;Stroke_Sham_cell_implantationCH_30371_w12.BQ1;Stroke_Sham_cell_implantationCH_30373_w12.BW1;unlistedCH_30376_w12.BW1;unlistedCH_30379_w12.BX1;Stroke_Stem_cellsCH_30380_w12.BX1;Stroke_Stem_cellsCH_30381_w12.BX1;unlistedCH_30385_w12.BX1;Stroke_Stem_cellsCH_30386_w12.BX1;Stroke_Stem_cellsCH_30388_w12.C51;Stroke_Stem_cellsCH_30389_w12.C51;Stroke_Stem_cellsCH_30392_w12.C51;Stroke_Stem_cells
+CH_30237_w12.A31;Stroke_Sham_cell_implantation

@@ -273,7 +273,7 @@ def startProcess(Rawfile_name):
 
 if __name__ == "__main__":
 
-    TR = 1.42
+    TR = 2.840
     cutOff_sec = 100.0
     FWHM = 3.0
 
