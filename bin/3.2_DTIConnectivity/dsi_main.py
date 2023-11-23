@@ -18,10 +18,12 @@ if __name__ == '__main__':
     # default dsi studio directory
     f = open(os.path.join(os.getcwd(), "dsi_studioPath.txt"), "r")
     dsi_studio = f.read().split("\n")[0]
+
     f.close()
 
     # default b-table in input directory
-    b_table = os.path.abspath(os.path.join(os.getcwd(), os.pardir,os.pardir)) + '/lib/001_btable.txt'
+    b_table = os.path.abspath(os.path.join(os.getcwd(), os.pardir,os.pardir)) + '/lib/002_btable.txt'
+    print('b_table_adr=',b_table)
 
     # default connectivity directory relative to input directory
     dir_con = r'connectivity'
