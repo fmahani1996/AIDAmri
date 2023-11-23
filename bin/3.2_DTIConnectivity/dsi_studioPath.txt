@@ -1,1 +1,1 @@
-/aida/bin_003/dsi_studio_ubuntu_1804/dsi-studio/dsi_studio
+/aida/bin_004/dsi_studio_ubuntu_1804/dsi-studio/dsi_studio

@@ -1,7 +1,7 @@
 """
 Created on 10/08/2017
 
-@author: Niklas Pallast, Markus Aswendt
+@author: Niklas Pallast
 Neuroimaging & Neuroengineering
 Department of Neurology
 University Hospital Cologne
