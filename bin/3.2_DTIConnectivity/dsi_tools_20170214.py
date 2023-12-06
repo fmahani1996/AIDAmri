@@ -161,7 +161,7 @@ def connectivity(dsi_studio, dir_in, dir_seeds, dir_out, dir_con):
     file_seeds = dir_seeds
 
     # Performs analysis on every connectivity value within the list ('qa' may not be necessary; might be removed in the future.)
-    connect_vals = ['qa', 'count']
+    connect_vals = ['qa', 'count', 'ncount2']
     for i in connect_vals:
         parameters = (dsi_studio, 'ana', filename, file_trk, file_seeds, i, 'pass,end')
         os.system(cmd_ana % parameters)
@@ -259,7 +259,7 @@ def srcgen(dsi_studio, dir_in, dir_msk, dir_out, b_table):
     os.chdir(os.path.dirname(dir_in))
 
     cmd_src = r'%s --action=%s --source=%s --output=%s --b_table=%s'
-    cmd_rec = r'%s --action=%s --source=%s --mask=%s --method=%d --param0=%s --check_btable=%d --half_sphere=%d'
+    cmd_rec = r'%s --action=%s --source=%s --mask=%s --method=%d --param0=%s --check_btable=%d --half_sphere=%d --cmd=%s'
 
     # create source files
     filename = os.path.basename(dir_in)
@@ -271,7 +271,7 @@ def srcgen(dsi_studio, dir_in, dir_msk, dir_out, b_table):
 
     # create fib files
     file_msk = dir_msk
-    parameters = (dsi_studio, 'rec', file_src, file_msk, 1, '16', 0, 1)
+    parameters = (dsi_studio, 'rec', file_src, file_msk, 1,  '1.25', 0, 1,'"[Step T2][B-table][flip by]+[Step T2][B-table][flip bz]"')
     print("Generate fib-File %s:" % cmd_rec % parameters)
     os.system(cmd_rec % parameters)
 
