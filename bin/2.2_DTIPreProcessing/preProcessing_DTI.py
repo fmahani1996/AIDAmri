@@ -64,7 +64,8 @@ def smoothIMG(input_file, output_path):
     """
     data = nii.load(input_file)
 
-    vol = data.get_data()
+    # vol = data.get_data()
+    vol = np.asanyarray(data.dataobj)
     ImgSmooth = np.min(vol, 3)
 
     unscaledNiiData = nii.Nifti1Image(ImgSmooth, data.affine)
